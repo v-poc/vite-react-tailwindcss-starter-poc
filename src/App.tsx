@@ -16,7 +16,7 @@ function App() {
       />
       <div className="absolute inset-0 bg-[url(./assets/grid.svg)] bg-center [mask-image:linear-gradient(180deg,white,rgba(255,255,255,0))]"></div>
       <div className="card m-4 w-80 shadow-xl">
-        <figure className="h-[160px] opacity-[0.3] hover:opacity-[0.4]">
+        <figure className="h-40 opacity-[0.3] hover:opacity-[0.4]">
           <img src="https://picsum.photos/id/103/500/250" />
         </figure>
         <div className="absolute flex w-full justify-center">
@@ -29,7 +29,10 @@ function App() {
         </div>
         <div className="card-body">
           <h2 className="card-title">Vite + React + Tailwindcss</h2>
-          <button onClick={() => setCount((count) => count + 1)}>
+          <button
+            className="btn btn-outline btn-info btn-xs sm:btn-sm md:btn-md lg:btn-lg"
+            onClick={() => setCount((count) => count + 1)}
+          >
             count is {count}
           </button>
           <p className="text-left">
