@@ -1,4 +1,4 @@
-# vite-react-tailwindcss-poc
+# vite-react-tailwindcss-starter-poc
 
 This template provides a minimal setup to get React+Tailwindcss working in Vite with HMR and some ESLint rules.
 
